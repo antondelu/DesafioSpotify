@@ -1,0 +1,12 @@
+.nameNavbar{
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 600;
+font-size:1.25rem;
+white-space: nowrap;
+color:white;
+}
+
+.nameNavbar:hover{
+color: #370068;
+transition: 0.1s;
+}
