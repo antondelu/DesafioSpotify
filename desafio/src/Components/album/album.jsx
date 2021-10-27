@@ -1,13 +1,17 @@
  import "./card.css"
- import pic from "./pic.png"
- export const Album = () => {
+
+ export const Album = (props) => {
      return(
+    
+      <div className="cardAlbum">
         <div className="card" >
-        <img src={pic} className="card-img-top" alt="..."/>
+        <img src={props.Albums.images[0].url} className="card-img-top" alt="..."/>
         <div class="card-body">
-          <h5 class="card-title fontCard">Card title</h5>
-          <p class="card-text fontCard">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title fontCard">{props.Albums.name}</h5>
+          <p class="card-text fontCard">{props.Albums.release_date}.</p>
         </div>
       </div>
+      </div>
+    
      )
  }
