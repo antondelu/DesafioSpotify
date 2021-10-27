@@ -13,8 +13,12 @@ Instalacion del entorno - Node.js
 En este desafio se accede  desde el Back End <b>(Node/Express)</b>  a la API de spotify y se utliiza base de datos relacionales <b>(Mysql)</b> como persistencia.<br>
 Se utiliza  para el Front End <b>React.js</b> y Bootstrap v5.0. <br>
                                                                 
-                                                                
-                                                                
+<h2>A tener en cuenta </h2>          
+
+<img width="680" alt="Token" src="https://user-images.githubusercontent.com/64628295/138980755-c07c4751-e66e-490a-83a3-1d6fe763fc66.png">
+
+- Link : https://developer.spotify.com/documentation/web-playback-sdk/quick-start/
+                                                        
 <h2> A mejorar  👇 </h2>
 - Guardado de datos sensibles en variables de entorno con archivos .ENV . <br>
 - Guardado de informacion ( IP ) en la BD.
